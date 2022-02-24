@@ -36,6 +36,7 @@ function TodoList() {
 
   return (
     <div>
+    <div class="paper"></div>
     <h1>Sarah's To Do List!</h1>
     <TodoForm onSubmit = {addTodo} />
     <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} />

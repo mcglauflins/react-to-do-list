@@ -41,6 +41,7 @@ inputRef.current.focus()
             />
             <button className='todo-button'>Add todo</button>
         </form>
+       
     </div>
   );
 };
